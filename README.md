@@ -68,8 +68,6 @@ cd ai-labor-market-analysis
 pip install -r requirements.txt
 jupyter notebook
 ```
-Or open directly in Google Colab:  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DarynaAkkus/ai-labor-market-analysis/blob/main/01_data_exploration.ipynb)
 
 ## Research Context
 This analysis was developed as part of an academic conference paper:  

@@ -36,6 +36,7 @@ ai-labor-market-analysis/
 ├── 01_data_exploration.ipynb        # EDA: distributions, missing values, top-risk jobs
 ├── 02_automation_analysis.ipynb     # Salary vs automation risk, sector bubble chart
 ├── 03_education_vs_automation.ipynb # JobZone analysis, "double protection" effect
+├── images/                          # Visual assets: charts and plots 
 ├── wage_data.csv                    # Anthropic Economic Index dataset (Feb 2025)
 └── README.md
 ```

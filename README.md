@@ -32,23 +32,21 @@ to understand how AI automation risk relates to education level and salary.
 
 ## Project Structure
 ```
-## Project Structure
-```
 ai-labor-market-analysis/
 ├── 📂 data/
-│   ├── wage_data.csv                    # Occupation-level automation risk & salary data
+│   ├── wage_data.csv                    # Occupation-level automation & salary data
 │   ├── onet_task_mappings.csv           # Work tasks delegated to AI (O*NET)
 │   ├── automation_vs_augmentation.csv   # AI interaction type breakdown
 ├── 📂 images/                           # All generated visualizations (14 charts)
-├── 01_data_exploration.ipynb            # EDA: distributions, missing values, top-risk jobs
-├── 02_automation_analysis.ipynb         # Salary vs automation risk, sector bubble chart
-├── 03_education_vs_automation.ipynb     # JobZone analysis, "double protection" effect
-├── 04_tasks_and_interactions.ipynb      # Task delegation patterns + interaction types
+├── 01_data_exploration.ipynb            # EDA: distributions, top-risk jobs
+├── 02_automation_analysis.ipynb         # Salary vs automation risk
+├── 03_education_vs_automation.ipynb     # Education "double protection" effect
+├── 04_tasks_and_interactions.ipynb      # Task delegation + interaction patterns
 ├── .gitignore
 ├── requirements.txt
 └── README.md
 ```
-```
+
 
 ## Tech Stack
 - **Python** — Pandas, NumPy, Matplotlib, Seaborn

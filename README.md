@@ -32,20 +32,36 @@ to understand how AI automation risk relates to education level and salary.
 
 ## Project Structure
 ```
+## Project Structure
+```
 ai-labor-market-analysis/
-├── 01_data_exploration.ipynb        # EDA: distributions, missing values, top-risk jobs
-├── 02_automation_analysis.ipynb     # Salary vs automation risk, sector bubble chart
-├── 03_education_vs_automation.ipynb # JobZone analysis, "double protection" effect
-├── images/                          # Visual assets: charts and plots 
-├── wage_data.csv                    # Anthropic Economic Index dataset (Feb 2025)
+├── 📂 data/
+│   ├── wage_data.csv                    # Occupation-level automation risk & salary data
+│   ├── onet_task_mappings.csv           # Work tasks delegated to AI (O*NET)
+│   ├── automation_vs_augmentation.csv   # AI interaction type breakdown
+├── 📂 images/                           # All generated visualizations (14 charts)
+├── 01_data_exploration.ipynb            # EDA: distributions, missing values, top-risk jobs
+├── 02_automation_analysis.ipynb         # Salary vs automation risk, sector bubble chart
+├── 03_education_vs_automation.ipynb     # JobZone analysis, "double protection" effect
+├── 04_tasks_and_interactions.ipynb      # Task delegation patterns + interaction types
+├── .gitignore
+├── requirements.txt
 └── README.md
+```
 ```
 
 ## Tech Stack
 - **Python** — Pandas, NumPy, Matplotlib, Seaborn
 - **Environment** — Google Colab / Jupyter Notebook
-- **Data source** — [Anthropic Economic Index](https://huggingface.co/datasets/Anthropic/EconomicIndex)
-  (Hugging Face, February 2025 release, CC-BY license)
+## Data Sources
+| File | Description | Used in |
+|------|-------------|---------|
+| `wage_data.csv` | 873 occupations with salary & automation scores | Notebooks 1–3 |
+| `onet_task_mappings.csv` | Work tasks mapped to AI usage frequency | Notebook 4 |
+| `automation_vs_augmentation.csv` | AI interaction type distribution | Notebook 4 |
+
+
+**Source:** [Anthropic Economic Index](https://huggingface.co/datasets/Anthropic/EconomicIndex), Hugging Face (Feb 2025, CC-BY license)
 
 ## How to Run
 ```bash

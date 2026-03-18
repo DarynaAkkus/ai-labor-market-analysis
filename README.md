@@ -19,6 +19,17 @@ to understand how AI automation risk relates to education level and salary.
 | Safest sector | Community & Social Service (4.4% avg risk) |
 | Education effect (Zone 1→5) | Risk drops from ~75% to ~15% |
 
+## Visualizations
+
+### Salary vs Automation Risk
+<img width="1926" height="1176" alt="fig4_salary_vs_automation" src="https://github.com/user-attachments/assets/bebe02c3-c0a1-4122-be76-e2640c6e4836" />
+
+### Education Level vs Automation Risk
+<img width="2061" height="921" alt="fig8_jobzone_analysis" src="https://github.com/user-attachments/assets/cbb625f8-70dd-4bc4-bb4d-2b1c8d020e02" />
+
+### Double Protection Effect
+<img width="1472" height="1026" alt="fig10_double_protection" src="https://github.com/user-attachments/assets/66a239da-db0c-4e3d-b24a-6de6de6570e4" />
+
 ## Project Structure
 ```
 ai-labor-market-analysis/
@@ -48,7 +59,7 @@ Or open directly in Google Colab:
 ## Research Context
 This analysis was developed as part of an academic conference paper:  
 *"Sztuczna inteligencja a rynek pracy: automatyzacja czy augmentacja?"*  
-WSZiB Kraków, 2026
+2026
 
 ## Author
 **Daryna Akkus**  
